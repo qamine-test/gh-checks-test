@@ -1,9 +1,9 @@
 module.exports = {
-  verbose: true,
+  verbose: false,
   preset: 'ts-jest',
   testEnvironment: 'node',
   coverageDirectory: './coverage',
-  coverageReporters: ['lcov', 'text', 'html', 'json', 'cobertura', 'clover'],
+  coverageReporters: ['lcovasasas', 'teasasasxt', 'html', 'json', 'cobertura', 'clover'],
   collectCoverageFrom: [
     'src/**/*.ts',
     '!src/ui/**',
